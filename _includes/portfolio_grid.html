@@ -3,23 +3,74 @@
   <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
+        <h2>Personal Projects</h2>
         <hr class="star-primary">
       </div>
     </div>
-    <div class="portfolio-flex-row">
-      {% for post in site.posts %}
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-        </a>
-      </div>
-      {% endfor %}
-    </div>
+    <h4 id="personal-projects"><strong>Personal projects</strong></h4>
+    <ul>
+      <li>Designed and implemented physical-based-rendering pipeline by <strong>OpenGL</strong> and
+        <strong>GLSL</strong> to achieve <strong>photorealistic effects</strong>.</li>
+      <li>Implemented model loading system by <strong>Assimp</strong> to allow users to load third-party models.</li>
+      <li>Implemented keyboard mouse event system by <strong>singleton pattern</strong> as an independent module to make
+        modules <strong>low coupling</strong>.</li>
+      <li>Implemented user interface by <strong>ImGui</strong> to allow users to change the properties of renderers and
+        create different rendering scenes.</li>
+      <li>Built static libraries of UI module and rendering module to optimize execution speed at run time.</li>
+      <li>Implemented <strong>scene serialization by Yaml</strong> to allow users to save different scenes to local
+        directories or read local scene
+        files.</li>
+      <li>Constructed <strong>Lua scripts</strong> to maintain the configuration of project by using premake5.</li>
+      <li>Implemented soft shadow effect by <strong>percentage-closer filtering algorithm</strong>, cubemaps, gamma
+        correction and HDR effect</li>
+    </ul>
+
+    <p><strong>Dungeons &amp; Dragons Game Database Web</strong></p>
+
+    <ul>
+      <li>Designed and implemented frontend by using <strong>HTML,CSS,JavaScript</strong> and backend by using
+        <strong>python and Sqlite</strong>.</li>
+      <li>Deduplication of raw data and completion of missing data by implementing a simple search tool.</li>
+      <li>Provided different analysis methods by implementing SQL query operations.</li>
+      <li>Implemented a <strong>user-friendly interface</strong> to allow users to analysis data by clicking without
+        typing.</li>
+      <li>Implemented example query questions and answers for students who start to learn database.</li>
+      <li>Finished and improved the <strong>document</strong> which includes introduction, guidance and features with
+        teammates</li>
+    </ul>
+
+    <p><strong>Json interpreter</strong></p>
+
+    <ul>
+      <li>Implemented <strong>recursive descent parser</strong>.</li>
+      <li>Avoided extra unnecessary code and untested code by applying <strong>test driven development</strong>.</li>
+      <li>Support <strong>cross platforms</strong>: windows,Linux,OS X. <strong>Support different
+          compilers</strong>:VC,gcc,clang.</li>
+      <li>Support UTF-8 Json context.</li>
+      <li>Implemented a simple <strong>unit test system</strong> to maintain the project</li>
+    </ul>
+
+    <p><strong>Covid19 Data Visualization Web</strong></p>
+
+    <ul>
+      <li>Collected most countries covid19 data by <strong>Json</strong> format, removed unnecessary data and unified
+        data from different Json
+        files.</li>
+      <li>Designed and Implemented web interface by using <strong>React.js</strong>.</li>
+      <li>Implemented <strong>Pie chart, Bar chart and line chart</strong> by using <strong>Echarts</strong> for the
+        data of death, recovered, infected people and the data changes by every 2 weeks period.</li>
+      <li>Provided a clear comparison for the number of each group of people and the virus infection trends.</li>
+      <li>Webpage is <strong>Deployed on Github Pages</strong></li>
+    </ul>
+
+    <p><strong>Sorting Algorithms Visualizer</strong></p>
+
+    <ul>
+      <li>Designed and implemented web interface by using <strong>React.js</strong>.</li>
+      <li>Implemented bubbleSort, SelectionSort, QuickSort, MergeSort, InsertionSort methods.</li>
+      <li>Help students to understand how sorting methods compared in velocity and how each sorting method sort lists.
+      </li>
+      <li>Webpage is <strong>Deployed on Github Pages</strong></li>
+    </ul>
   </div>
 </section>
