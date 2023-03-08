@@ -2,20 +2,20 @@
 
 *A simple online resume guide which powered by **Jekyll** and **Github Pages***
 
-![GIF](/asset/gifs/resumegif.gif)
+![GIF](/img/gif/resume.gif)
 
-[View Online Resume](http://localhost:4000/changgeng.github.io/)
+[View Online Resume](http://localhost:4000/chang.github.io/)
 
 ----
 
 <div align="center">
 
-**[Purpose](https://github.com/willproj/changgeng.github.io#-Purpose) • 
-[Prerequisites](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-prerequisites) • 
-[Instructions](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-instructions) • 
-[More resource](https://github.com/willproj/changgeng.github.io#-more-resource) •
-[Acknowledgments](https://github.com/willproj/changgeng.github.io#-acknowledgments) • 
-[FAQs](https://github.com/willproj/changgeng.github.io#faq)**
+**[Purpose](https://github.com/willproj/chang.github.io#-Purpose) • 
+[Prerequisites](https://github.com/willproj/chang.github.io#%EF%B8%8F-prerequisites) • 
+[Instructions](https://github.com/willproj/chang.github.io#%EF%B8%8F-instructions) • 
+[More resource](https://github.com/willproj/chang.github.io#-more-resource) •
+[Acknowledgments](https://github.com/willproj/chang.github.io#-acknowledgments) • 
+[FAQs](https://github.com/willproj/chang.github.io#faq)**
 
 </div>
 
