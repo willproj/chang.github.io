@@ -4,7 +4,7 @@
 
 ![GIF](/img/gif/resume.gif)
 
-[View Online Resume](http://localhost:4000/chang.github.io/)
+[View Online Resume](https://willproj.github.io/chang.github.io/)
 
 ----
 
